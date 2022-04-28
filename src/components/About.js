@@ -6,7 +6,7 @@ export default function About() {
     <div className="about">
       <h2>About Me</h2>
       <p>
-        A whole big paragraph about nonsensical things, related to entire
+        A whole big paragraph about non-sensical things, related to entirely
         sensical thoughts. These random words will gradually start to take up
         more and more space until the viewer can no longer handle it.
       </p>

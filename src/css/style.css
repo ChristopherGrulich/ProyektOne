@@ -1,20 +1,55 @@
 * {
   display: border-box;
+  font-family: "Inter", sans-serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 body {
   background-color: rgb(110, 110, 146);
+  background: url("/src/img/bg.png");
 }
 
 #container {
   background-color: rgb(55, 55, 107);
-  border-radius: 10px 10px 10px 10px;
+  background: url("/src/img/bg2.jpg");
+  color: rgb(98, 143, 202);
+  border-radius: 15px 15px 15px 15px;
   padding: 20px;
-  margin: 50px 80px 5px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  width: 300px;
+  margin: auto;
+  margin-top: 20px;
+  letter-spacing: 1px;
+}
+
+.image {
+  width: 300px;
+  border-radius: 10px 10px 3px 3px;
+}
+
+.info {
+  text-align: center;
+  flex: 1;
+}
+
+.info > h2 {
+  color: rgb(221, 221, 221);
+}
+
+.button {
+  color: rgb(221, 221, 221);
+  border: double;
+  padding: 5px;
+  background-color: #6d9dd4;
+  border-radius: 12px 12px 12px 12px;
+  width: 80%;
+}
+
+.button:hover {
+  cursor: pointer;
+  background-color: rgb(167, 204, 252);
 }
 
 .about,
@@ -28,25 +63,14 @@ main {
 }
 
 footer {
-  background-color: rgb(26, 26, 53);
   border-radius: 0 0 10px 10px;
   text-align: center;
   height: 40px;
+  display: flex;
 }
 
-.info {
-  text-align: center;
-}
-
-.image {
-  height: 300px;
-  margin: -20px;
-  margin-bottom: 5px;
-  border-radius: 10px 10px 3px 3px;
-}
-
-.buttonemail {
-}
-
-.buttongithub {
+.footericons {
+  width: 12%;
+  padding: 10px;
+  margin-top: -10px;
 }
